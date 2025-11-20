@@ -23,27 +23,25 @@ This project analyzes internal employee emails to:
 
 ### Top 3 Positive Employees (latest month)
 
-- Employee A – score: X
-- Employee B – score: Y
-- Employee C – score: Z
+- kayne.coulter@enron.com – score: 14
+- eric.bass@enron.com  – score: 9
+- lydia.delgado@enron.com  – score: 9
 
 ### Top 3 Negative Employees (latest month)
 
-- Employee D – score: P
-- Employee E – score: Q
-- Employee F – score: R
-
-*(You can get these from `rankings_df` for the latest `year_month`.)*
+- bobette.riner@ipgdirect.com – score: 1
+- rhonda.denton@enron.com  – score: 1
+- sally.beck@enron.com  – score: 2
 
 ### Flight-Risk Employees
 
 Employees who sent ≥4 negative emails in any rolling 30-day period:
 
-- Employee X
-- Employee Y
-- Employee Z
+- eric.bass@enron.com
+- johnny.palmer@enron.com
+- patti.thompson@enron.com
+- sally.beck@enron.com
 
-*(List from `flight_risk_unique`.)*
 
 ## 4. Insights & Recommendations
 
